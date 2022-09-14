@@ -22,6 +22,7 @@
         "@types/react": "^18.0.17",
         "@types/react-color": "^3.0.4",
         "@types/react-dom": "^18.0.6",
+        "@types/tinycolor2": "^1.4.3",
         "buffer": "^6.0.3",
         "html2canvas": "^1.4.1",
         "kalidokit": "^1.1.5",
@@ -40,8 +41,7 @@
     "devDependencies": {
         "@pixiv/types-vrm-0.0": "^1.0.0-beta.19-alpha.0",
         "@pixiv/types-vrmc-vrm-1.0": "^1.0.0-beta.19-alpha.0",
-        "@types/three": "^0.140.0",
-        "@types/tinycolor2": "^1.4.3"
+        "@types/three": "^0.140.0"
     },
     "scripts": {
         "heroku-postbuild": "npm install --legacy-peer-deps && npm run build",
